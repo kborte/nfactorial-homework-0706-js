@@ -1,5 +1,5 @@
 //accessing object properties with []
-import { products } from "./Shop";
+import { products } from ".";
 
 //filter + not strict comparison + map
 const FILTER_PRODUCTS = function(parameter, value){

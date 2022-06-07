@@ -1,5 +1,6 @@
 import { DELETE_PRODUCT as del} from "../../stock";
-import { cart } from "./Shop";
+import { cart } from ".";
+import { products } from ".";
 
 //arrow function
 const ADD_TO_CART = (myIndex) =>

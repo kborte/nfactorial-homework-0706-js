@@ -1,4 +1,6 @@
-const greeting = function(firstName, shopInfo){
+import { firstName, shopInfo } from ".";
+
+const greeting = function(){
     let currentTime = new Date();
     let currentTimeSec = currentTime.getHours() * 3600 + currentTime.getMinutes() * 60 + currentTime.getSeconds();
     //тернарный оператор

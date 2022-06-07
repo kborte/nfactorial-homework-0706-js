@@ -1,5 +1,5 @@
 //function declaration + import
-import { otherInfo } from "./Shop";
+import { otherInfo } from ".";
 
 function moreInfo(){
     console.log(otherInfo);

@@ -60,11 +60,10 @@ console.log(products);
 
 export {products, cart, shopInfo, firstName, age, otherInfo};
 
-import { ADD_TO_CART, CHECKOUT } from "./cart.js";
+import { ADD_TO_CART as addToCart, CHECKOUT as checkout} from "./cart.js";
 import { moreInfo } from "./more info.js";
-import { FILTER_PRODUCTS, ADD_FILTER } from "./filter.js";
+import { FILTER_PRODUCTS as filter, ADD_FILTER as addFilter} from "./filter.js";
 import { rateShop } from "./rating.js";
-import { greeting as greet } from "./greeting.js";
-import { FILTER_PRODUCTS as filter } from "./filter.js";
-import { SALE_PRICES } from "./sale.js";
+import { greeting } from "./greeting.js";
+import { SALE_PRICES as setSalePrices } from "./sale.js";
 import { ADD_PRODUCT as add, ADD_FIRST_PRODUCT as addFirst, DELETE_PRODUCT as del, DELETE_FIRST_PRODUCT as delFirst, DELETE_LAST_PRODUCT as delLast, EDIT_PRODUCT as edit} from "./stock.js";

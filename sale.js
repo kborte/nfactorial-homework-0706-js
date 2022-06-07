@@ -1,4 +1,4 @@
-import { products } from "../../Shop";
+import { products } from ".";
 
 const SALE_PRICES = function(salePortion, minimumPrice){
     let i = 0;

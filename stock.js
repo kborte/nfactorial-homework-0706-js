@@ -1,3 +1,4 @@
+import {products} from ".";
 //function declaration + destructuring
 function ADD_PRODUCT({ myitemType: t, myColor: c, mySize: s, myPrice: p }) {
     products.push({
